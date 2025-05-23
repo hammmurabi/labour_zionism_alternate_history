@@ -1,4 +1,4 @@
-title: The Death of Hermann Müller
+title: The Death of David Ben-Gurion
 view-if: year = 1931 and month >= 3
 frequency: 1000
 max-visits: 1
@@ -8,16 +8,16 @@ on-arrival: muller_dead = 1; n_advisors -= 1 if muller_advisor == 1; muller_advi
 new-page: true
 face-image: img/portraits/MüllerHermann.jpg
 
-= The Death of Hermann Müller
+= The Death of David Ben-Gurion
 
 @pm
 on-arrival: muller_died_in_office = 1
 # TODO: achievement for muller dying in office
 
-Chancellor Hermann Müller has died while in office. He will be greatly missed. But now, we must select a new Chancellor.
+Chancellor David Ben-Gurion has died while in office. He will be greatly missed. But now, we must select a new Chancellor.
 
 - @braun_chancellor: Otto Braun (SPD) for Chancellor.
-- @wels_chancellor: Otto Wels (SPD) for Chancellor.
+- @wels_chancellor: Moshe Sharett (SPD) for Chancellor.
 - @breitscheid_chancellor: Rudolf Breitscheid (SPD) for Chancellor.
 - @bruning_chancellor: Let Heinrich Bruning of the Center Party become Chancellor.
 - @wirth_chancellor: Joseph Wirth of the Center Party should be Chancellor.

@@ -294,14 +294,14 @@ Q.catholics_other = 12;
 // note: the Z figures also include the BVP (Bavarian people's party)
 // since they were ideologically similar, but they were separate parties.
 // They did not have a CDU/CSU-style relationship.
-Q.spd_r = 26;
-Q.kpd_r = 9;
-Q.z_r = 17;
-Q.ddp_r = 6;
-Q.dvp_r = 10;
-Q.dnvp_r = 20;
-Q.nsdap_r = 3;
-Q.other_r = 9;
+Q.spd_r = 38;
+Q.kpd_r = 3;
+Q.z_r = 12;
+Q.ddp_r = 4;
+Q.dvp_r = 5;
+Q.dnvp_r = 12;
+Q.nsdap_r = 15;
+Q.other_r = 7;
 
 // diff from prev
 Q.old_spd_r = 26;
@@ -329,15 +329,15 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Hindenburg";
+Q.president = "None";
 // starting chancellor: Wilhelm Marx
-Q.chancellor = "Marx";
-Q.chancellor_party = 'Z';
-Q.spd_in_government = 0;
-Q.z_in_government = 1;
+Q.chancellor = "Ben-Gurion";
+Q.chancellor_party = 'spd';
+Q.spd_in_government = 1;
+Q.z_in_government = 0;
 Q.ddp_in_government = 0;
-Q.dvp_in_government = 1;
-Q.dnvp_in_government = 1;
+Q.dvp_in_government = 0;
+Q.dnvp_in_government = 0;
 Q.kpd_in_government = 0;
 Q.nsdap_in_government = 0;
 
@@ -352,7 +352,7 @@ Q.in_popular_front = 0;
 // left coalition = SPD + KPD + left-splinters
 Q.in_left_front = 0;
 // emergency government containing the SPD: only president Braun can do this.
-Q.in_emergency_government = 0;
+Q.in_emergency_government = 1;
 Q.in_spd_majority = 0;
 Q.grand_coalition_failed = 0;
 // if the SPD is ruling as part of a minority government
@@ -502,9 +502,9 @@ Q.n_elections = 0;
 Q.no_majority_elections = 0;
 // elections are not on a timer, but rather there is an indicator for whether you're in an electoral cycle.
 Q.in_election = 1;
-Q.next_election_year = 1928;
-Q.next_election_month = 5;
-Q.next_election_time = 5;
+Q.next_election_year = 1949;
+Q.next_election_month = 1;
+Q.next_election_time = 1;
 // government affairs timers
 Q.agricultural_policy_timer = 0;
 Q.domestic_enemies_timer = 0;
@@ -533,12 +533,12 @@ Q.march_on_berlin_timer = 0;
 
 
 // all the initial advisors are centrists.
-Q.wels_advisor = 1; // Otto Wels
-Q.muller_advisor = 1; // Hermann Müller
+Q.wels_advisor = 1; // Moshe Sharett
+Q.muller_advisor = 1; // David Ben-Gurion
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
-Q.hilferding_advisor = 1; // Rudolf Hilferding
+Q.hilferding_advisor = 1; // Eliezer Kaplan
 
 // left advisors
 Q.sender_advisor = 0; // Toni Sender
@@ -623,7 +623,7 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
-= 1928
+= 1949
 
 It is a bittersweet time for the Jewish people. After the unspeakable horrors and suffering of the Shoah, we have managed to secure our statehood after our hard-fought victories against the British occupation and the Arab armies. As millions of refugees pour in escaping the horrible living conditions in Europe and new waves of violence across the Arab world, the new Jewish State is in a precarious position. 
 
