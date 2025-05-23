@@ -4,7 +4,7 @@ is-card: true
 view-if: iron_front_formed == 1 and nazi_urgency >= 3
 on-arrival: confronting_antisemitism += 1; month_actions += 1
 card-image: img/iron_front.png
-tags: party_affairs, antifascism
+tags:, antifascism
 max-visits: 1
 
 = Confronting Antisemitism
