@@ -52,9 +52,9 @@ is-deck: true
 
 - #party_affairs
 
-@govt
-title: Government Affairs
-card-image: img/reichstag_2.jpg
-is-deck: true
+# @govt
+# title: Government Affairs
+# card-image: img/reichstag_2.jpg
+# is-deck: true
 
 - #govt_affairs
