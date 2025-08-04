@@ -31,11 +31,11 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-President: <span style="color: #c00000;">Herzog</span> ( <span style="color: #c00000;">Labour</span> )
+President: <span style="color: #c00000;">Herzog</span> (<span style="color: #c00000;">Labour</span>)
 
 Prime Minister: <span style="color: #0f2db4ff;">Shamir</span> (<span style="color: #0f2db4ff;">Likud</span>)
 
-Assembly composition:
+Knesset composition:
 
 # 1928: 30, 1930: 25, 1932: 22
 {!<span class="tooltip-text" title="Land of Israel Workers' Party"><span style="color: #c00000;">Labour</span></span>!}: [+ spd_r +]%
