@@ -38,20 +38,20 @@ Chancellor: <span style="color: #0f2db4ff;">Shamir</span> (<span style="color: #
 Assembly composition:
 
 # 1928: 30, 1930: 25, 1932: 22
-{!<span class="tooltip-text" title="Land of Israel Workers' Party">Mapai</span>!}: [+ spd_r +]%
+{!<span class="tooltip-text" title="Land of Israel Workers' Party"><span style="color: #c00000;">Labour</span></span>!}: [+ spd_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
-{!<span class="tooltip-text" title="United Religious Front">URF</span>!}: [+ z_r +]%
+{!<span class="tooltip-text" title="United Religious Front"><span style="color: #000000ff;">Shas</span></span>!}: [+ z_r +]%
 # 1928: 10, 1930: 13
-{!<span class="tooltip-text" title="Israeli Communist Party">Maki</span>!}: [+ kpd_r +]%
+{!<span class="tooltip-text" title="Israeli Communist Party"><span style="color: #8B0000;">Hadash</span></span>!}: [+ kpd_r +]%
 # 1928: 5, 1930: 4 (as DstP)
-{!<span class="tooltip-text" title="Progressive Party">Prog.</span>!}: [+ ddp_r +]%
+{!<span class="tooltip-text" title="Progressive Party"><span style="color: #2cb84aff;">Meretz</span></span>!}: [+ ddp_r +]%
 # 1928: 9, 1930: 5
-{!<span class="tooltip-text" title="General Zionists">GZ</span>!}: [+ dvp_r +]%
+{!<span class="tooltip-text" title="General Zionists"><span style="color: #0f2db4ff;">Likud</span></span>!}: [+ dvp_r +]%
 # 1928: 14, 1930: 7
-{!<span class="tooltip-text" title="Freedom Movement">Herut</span>!}: [+ dnvp_r +]%
+{!<span class="tooltip-text" title="Freedom Movement"><span style="color: #9006a2ff;">Mafdal</span></span>!}: [+ dnvp_r +]%
 # 1928: 3, 1930: 18
-{!<span class="tooltip-text" title="United Workers' Party">Mapam</span>!}: [+ nsdap_r +]%
+{!<span class="tooltip-text" title="United Workers' Party"><span style="color: #350b90ff;">Far-Right Bloc</span></span>!}: [+ nsdap_r +]%
 # 1928: 9, 1930: 10
 Others: [+ other_r +]%
 
