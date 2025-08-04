@@ -21,7 +21,7 @@ on-arrival: {!
 Q.started = 1;
 // time elapsed (in months)
 Q.time = 1;
-Q.year = 1949;
+Q.year = 1992;
 Q.month = 1;
 // how many actions have been taken this month?
 Q.month_actions = 0;
@@ -331,17 +331,17 @@ Q.economic_records = [];
 // State of the government
 Q.president = "None";
 // starting chancellor: Wilhelm Marx
-Q.chancellor = "Ben-Gurion";
-Q.chancellor_party = 'spd';
-Q.spd_in_government = 1;
-Q.z_in_government = 0;
+Q.chancellor = "Shamir";
+Q.chancellor_party = 'dvp';
+Q.spd_in_government = 0;
+Q.z_in_government = 1;
 Q.ddp_in_government = 0;
-Q.dvp_in_government = 0;
-Q.dnvp_in_government = 0;
+Q.dvp_in_government = 1;
+Q.dnvp_in_government = 1;
 Q.kpd_in_government = 0;
-Q.nsdap_in_government = 0;
+Q.nsdap_in_government = 1;
 
-Q.in_right_coalition = 0;
+Q.in_right_coalition = 1;
 // Weimar coalition = SPD + Z + DDP
 Q.in_weimar_coalition = 0;
 // Grand coalition = SPD + Z + BVP + DDP + DVP
@@ -352,7 +352,7 @@ Q.in_popular_front = 0;
 // left coalition = SPD + KPD + left-splinters
 Q.in_left_front = 0;
 // emergency government containing the SPD: only president Braun can do this.
-Q.in_emergency_government = 1;
+Q.in_emergency_government = 0;
 Q.in_spd_majority = 0;
 Q.grand_coalition_failed = 0;
 // if the SPD is ruling as part of a minority government
@@ -502,8 +502,8 @@ Q.n_elections = 0;
 Q.no_majority_elections = 0;
 // elections are not on a timer, but rather there is an indicator for whether you're in an electoral cycle.
 Q.in_election = 1;
-Q.next_election_year = 1949;
-Q.next_election_month = 1;
+Q.next_election_year = 1992;
+Q.next_election_month = 6;
 Q.next_election_time = 1;
 // government affairs timers
 Q.agricultural_policy_timer = 0;
@@ -533,12 +533,12 @@ Q.march_on_berlin_timer = 0;
 
 
 // all the initial advisors are centrists.
-Q.wels_advisor = 1; // Moshe Sharett
-Q.muller_advisor = 1; // David Ben-Gurion
+Q.wels_advisor = 1; // Shimon Peres
+Q.muller_advisor = 1; // Yitzhak Rabin
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
-Q.hilferding_advisor = 1; // Eliezer Kaplan
+Q.hilferding_advisor = 1; // Amir Peretz
 
 // left advisors
 Q.sender_advisor = 0; // Toni Sender
@@ -623,10 +623,10 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
-= 1949
+= 1992
 
-It is a bittersweet time for the Jewish people. After the unspeakable horrors and suffering of the Shoah, we have managed to secure our statehood after our hard-fought victories against the British occupation and the Arab armies. As millions of refugees pour in escaping the horrible living conditions in Europe and new waves of violence across the Arab world, the new Jewish State is in a precarious position. 
+It is a bright time for Israeli democracy. After a decade of economic troubles, inflation is finally under control, and the economy is expanding steadily. The scars of the Lebanon War are slowly fading, while the legacy of Peres's "dirty trick" still dominate political scene.
 
-Now, the task of Labour Zionism is to coalesce the Yishuv's existing political structure into a functional state. Elections are scheduled for later this month and we are in a dominant position, although it is highly unlikely any party will receive a majority of votes.
+Now, the task of <span style="color: #c00000;">Labour Zionism</span> is to prepare for the next election. The right-wing government of <span style="color: #1000c0ff;">Yitzhak Shamir</span> is unpopular, and we stand to gain. Perhaps the next government will have a social-democratic majority.
 
 

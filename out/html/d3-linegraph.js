@@ -19,10 +19,10 @@ d3.linegraph = function(noTicks, noDots, parties, partyColors, partyNames, dataM
         parties = ['spd', 'kpd', 'ddp', 'z', 'dvp', 'dnvp', 'nsdap', 'other'];
     }
     if (!partyColors) {
-        partyColors = {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'other': '#a0a0a0'};
+        partyColors = {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#2cb84aff', 'z': '#000', 'dvp': '#0f2db4ff', 'dnvp': '#9006a2ff', 'nsdap': '#350b90ff', 'other': '#a0a0a0'};
     }
     if (!partyNames) {
-        partyNames = {'spd': 'Mapai', 'kpd': 'Maki', 'ddp': 'Prog.', 'z': 'URF', 'dvp': 'GZ', 'dnvp': 'Herut', 'nsdap': 'Mapam', 'other': 'Others'};
+        partyNames = {'spd': '<span style="color: #c00000;">Labour</span>', 'kpd': '<span style="color: #8B0000;">Hadash</span>', 'ddp': '<span style="color: #2cb84aff;">Meretz</span>', 'z': '<span style="color: #000000ff;">Shas</span>', 'dvp': '<span style="color: #0f2db4ff;">Likud</span>', 'dnvp': '<span style="color: #9006a2ff;">Mafdal</span>', 'nsdap': '<span style="color: #350b90ff;">Far-Right Bloc</span>', 'other': 'Others'};
     }
     if (!additionalMonths) {
         additionalMonths = 10;

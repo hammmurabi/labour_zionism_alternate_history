@@ -742,8 +742,8 @@ Who should be chancellor?
 
 - @braun_majority_chancellor: Otto Braun for Chancellor.
 - @breitscheid_majority_chancellor: Rudolf Breitscheid for Chancellor.
-- @muller_majority_chancellor: David Ben-Gurion for Chancellor.
-- @wels_majority_chancellor: Moshe Sharett for Chancellor.
+- @muller_majority_chancellor: Yitzhak Rabin for Chancellor.
+- @wels_majority_chancellor: Shimon Peres for Chancellor.
 
 @braun_majority_chancellor
 view-if: not historical_mode or not spd_prussia
@@ -761,15 +761,15 @@ Rudolf Breitscheid has become chancellor of the SPD majority.
 view-if: muller_dead = 0
 on-arrival: chancellor = "Müller"
 
-David Ben-Gurion has become chancellor of the SPD majority.
+Yitzhak Rabin has become chancellor of the SPD majority.
 
 @wels_majority_chancellor
 view-if: muller_dead = 1
 on-arrival: chancellor = "Wels"
 
-Moshe Sharett has become chancellor of the SPD majority.
+Shimon Peres has become chancellor of the SPD majority.
 
-# TODO: Moshe Sharett should be able to be chancellor of a Grand Coalition, Weimar Coalition, or SPD majority after Müller dies.
+# TODO: Shimon Peres should be able to be chancellor of a Grand Coalition, Weimar Coalition, or SPD majority after Müller dies.
 
 
 @brauns_dilemma
@@ -1132,7 +1132,7 @@ Who should be the chancellor?
 
 
 @muller
-title: David Ben-Gurion for Chancellor
+title: Yitzhak Rabin for Chancellor
 view-if: muller_dead = 0
 subtitle: Müller is popular within the party, and is the preferred candidate of the Center and other parties.
 on-arrival: spd_in_government = 1; chancellor = "Müller"; chancellor_party = "SPD"; in_grand_coalition = 1 if in_weimar_coalition == 0
@@ -1141,13 +1141,13 @@ go-to: ministries
 Müller's appointment as chancellor is approved by all our potential allies.
 
 @wels
-title: Moshe Sharett for Chancellor
+title: Shimon Peres for Chancellor
 view-if: muller_dead = 1
-subtitle: Moshe Sharett is a party leader, but can he also be chancellor?
+subtitle: Shimon Peres is a party leader, but can he also be chancellor?
 on-arrival: spd_in_government = 1; chancellor = "Wels"; chancellor_party = "SPD"; in_grand_coalition = 1 if in_weimar_coalition == 0
 go-to: ministries
 
-Moshe Sharett's appointment as chancellor is approved by our potential allies.
+Shimon Peres's appointment as chancellor is approved by our potential allies.
 
 @braun
 title: Otto Braun for Chancellor
@@ -1278,7 +1278,7 @@ view-if: finance_minister_party != "SPD"
 on-arrival: leverage -= 10; finance_minister_party = "SPD"; finance_minister = "Hilferding"
 go-to: ministries
 
-Eliezer Kaplan of the SPD has been appointed Finance Minister.
+Amir Peretz of the SPD has been appointed Finance Minister.
 
 @economic
 title: Economic Ministry
