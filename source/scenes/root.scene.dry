@@ -329,7 +329,7 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "None";
+Q.president = "Herzog";
 // starting chancellor: Wilhelm Marx
 Q.chancellor = "Shamir";
 Q.chancellor_party = 'dvp';
